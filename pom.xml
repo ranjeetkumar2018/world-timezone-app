@@ -27,7 +27,7 @@
 				<extensions>true</extensions>
 				<configuration>
 		<CloudHubDeploy>
-		<username>demo_2020</username>
+		<username>gk_123</username>
 		<enviournment>Sandbox</enviournment>
 		<workers>1</workers>
 		<workersType>Micro</workersType>
