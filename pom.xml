@@ -32,7 +32,7 @@
 		<workers>1</workers>
 		<workersType>Micro</workersType>
 		<applicationName>World-Timezone-service</applicationName>
-		<password>Mule@123#</password>
+		<password>Mule@123</password>
 		<muleVersion>4.2.2</muleVersion>
 		</CloudHubDeploy>
 				
