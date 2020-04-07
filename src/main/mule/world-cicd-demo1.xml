@@ -12,7 +12,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:request-config>
 	<flow name="world-cicd-demo1Flow" doc:id="59494b5d-518b-4f7a-8e3b-566b5bbcc71c" >
 		<http:listener doc:name="Listener" doc:id="107c41e9-c2ef-4c9e-8172-d226017fb814" config-ref="HTTP_Listener_config" path="/{region}/{city}"/>
-		<logger level="INFO" doc:name="Logger" doc:id="5f1a56c1-e4da-4e62-9baf-4e201209a682" message="---stage1"/>
+		<logger level="INFO" doc:name="Logger" doc:id="5f1a56c1-e4da-4e62-9baf-4e201209a682" message="---stage1....."/>
 		<http:request method="GET" doc:name="Request" doc:id="d6ec96b2-2eb1-4108-80d0-853ae73880e1" config-ref="HTTP_Request_configuration" path="/{region}/{city}">
 			<http:uri-params ><![CDATA[#[output application/java
 ---
@@ -23,4 +23,5 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		</http:request>
 		<logger level="INFO" doc:name="Logger" doc:id="e823b850-4a6e-4225-9d40-ffc63810a798" message="......................................completed............................"/>
 	</flow>
+	
 </mule>
