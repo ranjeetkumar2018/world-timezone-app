@@ -21,6 +21,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	region : attributes.uriParams.region
 }]]]></http:uri-params>
 		</http:request>
-		<logger level="INFO" doc:name="Logger" doc:id="e823b850-4a6e-4225-9d40-ffc63810a798" message="--lasta..completed"/>
+		<logger level="INFO" doc:name="Logger" doc:id="e823b850-4a6e-4225-9d40-ffc63810a798" message="......................................completed............................"/>
 	</flow>
 </mule>
